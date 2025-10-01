@@ -15,11 +15,17 @@ Scikit-Learn (Linear Regression)
 Streamlit (Web App)
 Pickle (Model storage)
 
+Project Structure
+├── app.py                 # Streamlit app
+├── linear_reg.ipynb       # Model training notebook
+├── linear_pipeline.pkl    # Saved ML pipeline
+├── manufacturing_dataset.csv  # Dataset
+├── requirements.txt       # Dependencies
+├── Dockerfile             # For containerization
+└── README.md              # Project documentation
+
 Run the App
 git clone 
 cd manufacturing-output-prediction
 pip install -r requirements.txt
 streamlit run app.py
-
-
-Integrate real-time IoT sensor data
