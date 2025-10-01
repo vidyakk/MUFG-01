@@ -16,7 +16,7 @@ Streamlit (Web App)
 Pickle (Model storage)
 
 Run the App
-git clone https://github.com/your-username/manufacturing-output-prediction.git
+git clone 
 cd manufacturing-output-prediction
 pip install -r requirements.txt
 streamlit run app.py
